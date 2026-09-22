@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Extension DOM retrieval example",
+  "description": "DOM retrieval minimal example with background.js and no content script.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dom-retrieval@mv3-examples.github.io"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": ["menus", "https://www.w3schools.com/"],
+  "version": "0.0.0"
+}
